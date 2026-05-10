@@ -1,19 +1,12 @@
 {
   "name": "al-azhar-tex",
   "version": "1.0.0",
-  "description": "Al Azhar Tex — Fine Fabrics Wholesale Website",
-  "engines": { "node": ">=18.0.0" },
+  "description": "Al Azhar Tex — Fine Fabrics Wholesale",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
-    "dev": "netlify dev",
-    "build": "echo 'Static site — no build step required'"
+    "build": "echo 'Static site, no build needed'"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "netlify-cli": "^17.0.0"
-  },
-  "netlify": {
-    "functions": {
-      "node_bundler": "esbuild"
-    }
-  }
+  "dependencies": {}
 }
