@@ -1,0 +1,10 @@
+# Al Azhar Tex — Netlify _redirects
+# Clean URL aliases (without .html extension)
+
+/products   /products.html   200
+/gallery    /gallery.html    200
+/about      /about.html      200
+/contact    /contact.html    200
+
+# 404 fallback
+/*          /index.html      404
