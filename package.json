@@ -1,9 +1,9 @@
 {
   "name": "al-azhar-tex",
   "version": "1.0.0",
-  "description": "Al Azhar Tex — Fine Fabrics Wholesale",
+  "description": "Al Azhar Tex — Fine Fabrics Wholesale Website",
   "engines": {
-    "node": "18.x"
+    "node": "24.x"
   },
   "scripts": {
     "build": "echo 'Static site, no build needed'"
